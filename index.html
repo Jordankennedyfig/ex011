@@ -11,10 +11,17 @@
     <picture>
         <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
         <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
-        <img src="imagens/foto-g.png" alt="Imagem flexível">
-
-        <!--TAGS DE ESTUDO (<picture> - <source media>)-->
-
+        <img src="imagens/foto-g.png" alt="Imagem flexível"> <!--TAGS DE ESTUDO (<picture> - <source media>)-->
     </picture>
+    
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/African Fella - Cumbia Deli.mp3" type="audio/mpeg">
+        <source src="midia/African Fella - Cumbia Deli.ogg" type="audio/ogg">
+        <source src="midia/African Fella - Cumbia Deli.wav" type="audio/wav">
+        <p>infelizmente seu navegador nao consegue reproduzir o áduio. <a href="midia/African Fella - Cumbia Deli.mp3"> Clique aqui para baixar o arquivo MP3.</a></p>
+        
+    </audio>
 </body>
 </html>
